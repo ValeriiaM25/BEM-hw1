@@ -1,0 +1,132 @@
+.header {
+    height: 100%;
+    margin: 0;
+    padding-left: 165px;
+    padding-right: 165px;
+    background: no-repeat url(./img/img.png);
+    background-size: cover;
+}
+
+.header__top-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation {
+}
+
+.logo {
+    font-size: 50px;
+    font-family: "Pacifico";
+    color: rgb(38, 38, 38);
+    line-height: 0.5;
+}
+
+.menu__list {
+    list-style-type: none;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(38, 38, 38);
+    font-weight: 600;
+    line-height: 1.563;
+}
+
+.menu__list-item {
+    display: inline;
+    padding: 16px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: black; 
+}
+
+.menu__linl--active:hover {
+    text-decoration: overline;
+    text-decoration-color: rgb(255, 96, 51);
+    height: 3px
+}
+
+.header__bottom {
+    margin-top: 236px;
+}
+
+.header__title {
+    font-size: 60px;
+    font-family: "Raleway";
+    color: rgb(38, 38, 38);
+    line-height: 0.417;
+    font-weight: 800;
+}
+
+.header__content {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    width: 370px;
+    height: 74;
+    font-size: 17px;
+    font-family: "Raleway";
+    color: rgb(38, 38, 38);
+    line-height: 1.588;
+}
+
+.header__button {
+    box-sizing: border-box;
+    height: 54px;
+    width: 200px;
+    font-size: 20px;
+    font-family: "Raleway";
+    background-color: rgb(255, 96, 51);
+    border: none;
+    color:white;
+    line-height: 1.35;
+    outline: none;
+}
+
+.header__button:hover {
+    background-color: chocolate;
+}
+
+.header__scroll-icon {
+    margin-top: 270px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.info {
+    background-color: #00aeae;
+    padding-left: 123px;
+    padding-right: 165px;
+}
+
+.info__container {
+    display: flex;
+    align-items: center;
+}
+
+.info__image {
+    padding: 70px 70px 70px 0;
+}
+
+.content {
+padding-right: 70px;
+}
+
+.content__title {
+    font-size: 90px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    line-height: 0.3;
+}
+
+.content__main-info {
+    width: 500px;
+    height: 190px;
+    font-size: 17px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    line-height: 1.588;  
+}
